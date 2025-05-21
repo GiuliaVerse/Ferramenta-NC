@@ -1,59 +1,65 @@
-Ferramenta-NC
-Ferramenta-NC é um sistema simples e automatizado para apoiar o processo de auditoria de qualidade em projetos. A aplicação permite criar e aplicar checklists de conformidade, registrar não conformidades (NC), monitorar seu tratamento e resolução, além de gerar comunicações formais.
+**Ferramenta-NC**
+Ferramenta-NC é uma aplicação simples e modular desenvolvida para automatizar auditorias de qualidade em projetos.
+Ela oferece recursos para aplicação de checklists, registro de não conformidades (NCs), acompanhamento de status e comunicações formais, tudo em um único lugar.
 
---Funcionalidades: 
+Ideal para equipes que buscam agilidade, rastreabilidade e controle sobre o processo de auditoria.
 
--Criação e gerenciamento de checklist de auditoria
+**Principais Recursos**
+1. Checklist de Auditoria
+Criação e edição de checklists personalizados
 
--Cadastro de itens de verificação
+Cadastro de itens de verificação com critérios definidos
 
--Aplicação de checklist com cálculo automático do % de aderência
+Cálculo automático do percentual de aderência
 
--Registro de Não-Conformidade (NC)
+2. Registro de Não Conformidade (NC)
+Registro detalhado com:
 
--Registro detalhado com descrição, data, responsável e tipo da NC
+Descrição da não conformidade
 
--Relacionamento com os itens do checklist
+Responsável
 
---Acompanhamento de NC
+Tipo e data
 
-Atualização do status de cada NC
+Relacionamento direto com os itens não atendidos do checklist
 
-Controle de prazos e resoluções
+3. Acompanhamento de NCs
+Atualização do status conforme o andamento das tratativas
 
---Comunicação de NC
+Controle de prazos e resoluções pendentes
 
-Geração de comunicados automáticos de NC
+4. Comunicação de NCs
+Geração automatizada de comunicados formais
 
-Identificação do nível da não conformidade e prazos para resposta
+Classificação por nível da NC
 
---Estrutura do Projeto
-O projeto está estruturado em arquivos Java simples, organizados conforme a lógica de uso da ferramenta:
+Definição de prazos para resposta e correção
 
-Arquivo	Descrição
-MenuPrincipal.java:	Interface principal do sistema, ponto de entrada e navegação
-CadastroItem.java:	Cadastro e listagem dos itens do checklist de auditoria
-ItemChecklist.java:	Classe que representa um item do checklist
-RegistroNC.java:	Cadastro e gerenciamento de registros de não conformidade
-ComunicacaoNC.java:	Geração de comunicados de NC, incluindo níveis e prazos
-PlanoDeProjeto.java:	Integração com os documentos e informações do projeto auditado
-
-Tecnologias
-Linguagem: Java
-
-Interface: Console (CLI)
-
-Persistência de dados: ainda não implementada (versão básica)
+**Estrutura do Projeto**
+bash
+Copiar
+Editar
+Ferramenta-NC/
+├── CadastroItem.java         # Cadastro de itens do checklist
+├── ItemChecklist.java        # Representação dos itens do checklist
+├── RegistroNC.java           # Registro e gestão das não conformidades
+├── ComunicacaoNC.java        # Geração de comunicados de NC
+├── PlanoDeProjeto.java       # Integração com dados do plano de projeto
+└── MenuPrincipal.java        # Interface principal do sistema
 
 
---Futuras Melhorias
-Persistência em arquivos ou banco de dados
+**Melhorias Futuras**
+Persistência de dados com arquivos ou banco de dados
 
 Melhorar Interface gráfica
 
 Exportação de relatórios (PDF/CSV)
 
-Integração com e-mail para envio automático de comunicações
+Envio automático de e-mails com comunicados de NC
 
-Licença
+Controle de usuários e permissões
+
+
+
+**Licença**
 Este projeto é de uso educacional e pode ser adaptado livremente.
