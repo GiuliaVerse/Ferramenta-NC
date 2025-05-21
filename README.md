@@ -6,34 +6,25 @@ Ideal para equipes que buscam agilidade, rastreabilidade e controle sobre o proc
 
 **Principais Recursos**
 1. Checklist de Auditoria
-Criação e edição de checklists personalizados
-
-Cadastro de itens de verificação com critérios definidos
-
-Cálculo automático do percentual de aderência
+-Criação e edição de checklists personalizados
+-Cadastro de itens de verificação com critérios definidos
+-Cálculo automático do percentual de aderência
 
 2. Registro de Não Conformidade (NC)
-Registro detalhado com:
-
-Descrição da não conformidade
-
-Responsável
-
-Tipo e data
-
-Relacionamento direto com os itens não atendidos do checklist
+-Registro detalhado com:
+-Descrição da não conformidade
+-Responsável
+-Tipo e data
+-Relacionamento direto com os itens não atendidos do checklist
 
 3. Acompanhamento de NCs
-Atualização do status conforme o andamento das tratativas
-
-Controle de prazos e resoluções pendentes
+-Atualização do status conforme o andamento das tratativas
+-Controle de prazos e resoluções pendentes
 
 4. Comunicação de NCs
-Geração automatizada de comunicados formais
-
-Classificação por nível da NC
-
-Definição de prazos para resposta e correção
+-Geração automatizada de comunicados formais
+-Classificação por nível da NC
+-Definição de prazos para resposta e correção
 
 **Estrutura do Projeto**
 bash
