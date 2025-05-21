@@ -1,3 +1,11 @@
+# Engenharia de Software
+
+**Qualidade de Software  - 4º semestre - PUCPR**
+
+Atividades práticas sobre qualidade de software Java, desenvolvidas durante o curso de Engenharia de Software.
+
+---
+
 #  Ferramenta-NC
 
 **Ferramenta-NC** é uma aplicação simples e modular desenvolvida para automatizar auditorias de qualidade em projetos. Com ela, é possível aplicar checklists personalizados, registrar não conformidades (NCs), acompanhar o status das tratativas e gerar comunicações formais — tudo em um único lugar.
