@@ -1,4 +1,4 @@
-# 🛠️ Ferramenta-NC
+#  Ferramenta-NC
 
 **Ferramenta-NC** é uma aplicação simples e modular desenvolvida para automatizar auditorias de qualidade em projetos. Com ela, é possível aplicar checklists personalizados, registrar não conformidades (NCs), acompanhar o status das tratativas e gerar comunicações formais — tudo em um único lugar.
 
@@ -6,35 +6,35 @@
 
 ---
 
-## 🚀 Funcionalidades
+##  Funcionalidades
 
-- ✅ **Checklist de Auditoria**
+-  **Checklist de Auditoria**
   - Criação e edição de checklists personalizados
   - Cadastro de itens com critérios definidos
   - Cálculo automático do percentual de aderência
 
-- ⚠️ **Registro de Não Conformidades (NC)**
+-  **Registro de Não Conformidades (NC)**
   - Registro detalhado com: descrição, responsável, tipo e data
   - Relacionamento direto com os itens do checklist
 
-- 📊 **Acompanhamento de NCs**
+- **Acompanhamento de NCs**
   - Atualização de status conforme andamento das tratativas
   - Controle de prazos e pendências
 
-- 📩 **Comunicação de NCs**
+-  **Comunicação de NCs**
   - Geração automatizada de comunicados formais
   - Classificação por nível da NC
   - Definição de prazos para resposta e correção
 
 ---
 
-## 🧱 Tecnologias Utilizadas
+##  Tecnologias Utilizadas
 
 > Projeto desenvolvido em **Java puro**.
 
 ---
 
-## 📁 Estrutura do Projeto
+## Estrutura do Projeto
 
 ```
 Ferramenta-NC/
@@ -48,7 +48,7 @@ Ferramenta-NC/
 
 ---
 
-## 🌟 Melhorias Futuras
+##  Melhorias Futuras
 
 - Persistência de dados (arquivos ou banco de dados)
 - Exportação de relatórios (PDF/CSV)
@@ -58,18 +58,6 @@ Ferramenta-NC/
 
 ---
 
-## 🧪 Como Executar
-
-1. Clone este repositório:
-   ```bash
-   git clone https://github.com/seu-usuario/Ferramenta-NC.git
-   ```
-
-2. Abra o projeto em uma IDE Java (como IntelliJ ou Eclipse)
-
-3. Compile e execute `MenuPrincipal.java` para iniciar a aplicação.
-
----
 
 ## 🤝 Contribuições
 
